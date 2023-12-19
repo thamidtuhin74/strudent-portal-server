@@ -1,0 +1,513 @@
+[
+    {
+      "course_id": "C001",
+      "course_name": "Introduction to Programming",
+      "instructor": "Dr. Smith",
+      "credit_hours": 3,
+      "schedule": {
+        "days": ["Monday", "Wednesday", "Friday"],
+        "time": "10:00 AM - 11:30 AM"
+      },
+      "modules": [
+        {
+          "module_id": "M001",
+          "module_name": "Basic Concepts of Programming",
+          "topics": ["Variables", "Control Structures", "Functions"]
+        },
+        {
+          "module_id": "M002",
+          "module_name": "Introduction to Algorithms",
+          "topics": ["Sorting", "Searching", "Algorithm Analysis"]
+        }
+      ],
+      "quizzes": [
+        {
+          "quiz_id": "Q001",
+          "quiz_name": "Programming Basics Quiz 1",
+          "due_date": "2023-02-15"
+        },
+        {
+          "quiz_id": "Q002",
+          "quiz_name": "Algorithms Quiz",
+          "due_date": "2023-03-05"
+        }
+      ]
+    },
+    {
+      "course_id": "C002",
+      "course_name": "Web Development Fundamentals",
+      "instructor": "Prof. Johnson",
+      "credit_hours": 4,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "1:00 PM - 3:00 PM"
+      },
+      "modules": [
+        {
+          "module_id": "M003",
+          "module_name": "HTML and CSS Basics",
+          "topics": ["HTML Tags", "CSS Styles", "Layouts"]
+        },
+        {
+          "module_id": "M004",
+          "module_name": "Introduction to JavaScript",
+          "topics": ["Variables", "Functions", "DOM Manipulation"]
+        }
+      ],
+      "quizzes": [
+        {
+          "quiz_id": "Q003",
+          "quiz_name": "HTML and CSS Quiz",
+          "due_date": "2023-02-28"
+        },
+        {
+          "quiz_id": "Q004",
+          "quiz_name": "JavaScript Basics Quiz",
+          "due_date": "2023-03-15"
+        }
+      ]
+    },
+    {
+      "course_id": "C003",
+      "course_name": "Data Science Basics",
+      "instructor": "Dr. Davis",
+      "credit_hours": 3,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "2:30 PM - 4:00 PM"
+      },
+      "modules": [
+        {
+          "module_id": "M005",
+          "module_name": "Introduction to Data Science",
+          "topics": ["Data Exploration", "Data Cleaning", "Data Visualization"]
+        }
+      ],
+      "quizzes": [
+        {
+          "quiz_id": "Q005",
+          "quiz_name": "Data Science Basics Quiz",
+          "due_date": "2023-03-10"
+        }
+      ]
+    },
+    {
+      "course_id": "C004",
+      "course_name": "Advanced Database Systems",
+      "instructor": "Prof. Martinez",
+      "credit_hours": 4,
+      "schedule": {
+        "days": ["Tuesday", "Thursday"],
+        "time": "3:30 PM - 5:30 PM"
+      },
+      "modules": [
+        {
+          "module_id": "M006",
+          "module_name": "Relational Database Design",
+          "topics": ["Entity-Relationship Model", "Normalization"]
+        },
+        {
+          "module_id": "M007",
+          "module_name": "SQL Advanced Queries",
+          "topics": ["Joins", "Subqueries", "Stored Procedures"]
+        }
+      ],
+      "quizzes": [
+        {
+          "quiz_id": "Q006",
+          "quiz_name": "Database Design Quiz",
+          "due_date": "2023-04-05"
+        },
+        {
+          "quiz_id": "Q007",
+          "quiz_name": "Advanced SQL Quiz",
+          "due_date": "2023-04-20"
+        }
+      ]
+    },
+    {
+      "course_id": "C005",
+      "course_name": "Computer Networks",
+      "instructor": "Dr. Anderson",
+      "credit_hours": 3,
+      "schedule": {
+        "days": ["Monday", "Wednesday"],
+        "time": "1:30 PM - 3:00 PM"
+      },
+      "modules": [
+        {
+          "module_id": "M008",
+          "module_name": "Introduction to Networking",
+          "topics": ["OSI Model", "TCP/IP", "Network Protocols"]
+        }
+      ],
+      "quizzes": [
+        {
+          "quiz_id": "Q008",
+          "quiz_name": "Networking Basics Quiz",
+          "due_date": "2023-03-25"
+        }
+      ]
+    },
+    {
+        "course_id": "C006",
+        "course_name": "Digital Marketing Fundamentals",
+        "instructor": "Prof. Taylor",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "2:00 PM - 4:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M009",
+            "module_name": "Social Media Marketing",
+            "topics": ["Content Strategy", "Engagement", "Analytics"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q009",
+            "quiz_name": "Digital Marketing Basics Quiz",
+            "due_date": "2023-05-01"
+          }
+        ]
+      },
+      {
+        "course_id": "C007",
+        "course_name": "Human-Computer Interaction",
+        "instructor": "Dr. Garcia",
+        "credit_hours": 4,
+        "schedule": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "11:00 AM - 12:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M010",
+            "module_name": "User Interface Design",
+            "topics": ["Usability", "Wireframing", "Prototyping"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q010",
+            "quiz_name": "HCI Basics Quiz",
+            "due_date": "2023-05-10"
+          }
+        ]
+      },
+      {
+        "course_id": "C008",
+        "course_name": "Environmental Science",
+        "instructor": "Prof. White",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Wednesday", "Friday"],
+          "time": "9:30 AM - 11:00 AM"
+        },
+        "modules": [
+          {
+            "module_id": "M011",
+            "module_name": "Ecosystems and Biodiversity",
+            "topics": ["Conservation", "Climate Change", "Environmental Impact"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q011",
+            "quiz_name": "Environmental Science Quiz",
+            "due_date": "2023-05-15"
+          }
+        ]
+      },
+      {
+        "course_id": "C009",
+        "course_name": "Project Management",
+        "instructor": "Dr. Harris",
+        "credit_hours": 4,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "10:30 AM - 12:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M012",
+            "module_name": "Project Planning",
+            "topics": ["Scope", "Time Management", "Budgeting"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q012",
+            "quiz_name": "Project Management Basics Quiz",
+            "due_date": "2023-05-25"
+          }
+        ]
+      },
+      {
+        "course_id": "C010",
+        "course_name": "Advanced Mathematics",
+        "instructor": "Prof. Turner",
+        "credit_hours": 5,
+        "schedule": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "1:00 PM - 3:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M013",
+            "module_name": "Calculus II",
+            "topics": ["Integration", "Differential Equations", "Applications"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q013",
+            "quiz_name": "Calculus II Quiz",
+            "due_date": "2023-06-05"
+          }
+        ]
+      },
+      {
+        "course_id": "C011",
+        "course_name": "Business Finance",
+        "instructor": "Dr. Turner",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Wednesday", "Friday"],
+          "time": "3:30 PM - 5:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M014",
+            "module_name": "Financial Analysis",
+            "topics": ["Budgeting", "Risk Management", "Financial Statements"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q014",
+            "quiz_name": "Finance Basics Quiz",
+            "due_date": "2023-06-15"
+          }
+        ]
+      },
+      {
+        "course_id": "C012",
+        "course_name": "Organizational Psychology",
+        "instructor": "Prof. Parker",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "2:30 PM - 4:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M015",
+            "module_name": "Motivation and Leadership",
+            "topics": ["Employee Engagement", "Team Dynamics", "Leadership Styles"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q015",
+            "quiz_name": "Psychology Basics Quiz",
+            "due_date": "2023-06-25"
+          }
+        ]
+      },
+      {
+        "course_id": "C013",
+        "course_name": "Mobile App Development",
+        "instructor": "Dr. Adams",
+        "credit_hours": 4,
+        "schedule": {
+          "days": ["Monday", "Wednesday"],
+          "time": "1:30 PM - 3:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M016",
+            "module_name": "iOS App Development",
+            "topics": ["Swift Programming", "User Interface", "Data Persistence"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q016",
+            "quiz_name": "Mobile App Basics Quiz",
+            "due_date": "2023-07-05"
+          }
+        ]
+      },
+      {
+        "course_id": "C014",
+        "course_name": "History of Art",
+        "instructor": "Prof. Miller",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "11:30 AM - 1:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M017",
+            "module_name": "Renaissance Art",
+            "topics": ["Michelangelo", "Leonardo da Vinci", "Raphael"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q017",
+            "quiz_name": "Art History Basics Quiz",
+            "due_date": "2023-07-15"
+          }
+        ]
+      },
+      {
+        "course_id": "C015",
+        "course_name": "International Relations",
+        "instructor": "Dr. Rodriguez",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Monday", "Wednesday"],
+          "time": "10:00 AM - 11:30 AM"
+        },
+        "modules": [
+          {
+            "module_id": "M018",
+            "module_name": "Global Politics",
+            "topics": ["Diplomacy", "Conflict Resolution", "International Organizations"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q018",
+            "quiz_name": "International Relations Quiz",
+            "due_date": "2023-07-25"
+          }
+        ]
+      },
+      {
+        "course_id": "C016",
+        "course_name": "Astrophysics",
+        "instructor": "Prof. Robinson",
+        "credit_hours": 4,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "3:00 PM - 5:00 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M019",
+            "module_name": "Stellar Astrophysics",
+            "topics": ["Star Formation", "Nuclear Fusion", "Black Holes"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q019",
+            "quiz_name": "Astrophysics Basics Quiz",
+            "due_date": "2023-08-05"
+          }
+        ]
+      },
+      {
+        "course_id": "C017",
+        "course_name": "Public Speaking",
+        "instructor": "Dr. Mitchell",
+        "credit_hours": 2,
+        "schedule": {
+          "days": ["Friday"],
+          "time": "9:00 AM - 10:00 AM"
+        },
+        "modules": [
+          {
+            "module_id": "M020",
+            "module_name": "Effective Communication",
+            "topics": ["Speech Structure", "Body Language", "Audience Engagement"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q020",
+            "quiz_name": "Public Speaking Quiz",
+            "due_date": "2023-08-15"
+          }
+        ]
+      },
+      {
+        "course_id": "C018",
+        "course_name": "Environmental Sustainability",
+        "instructor": "Prof. Moore",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Wednesday", "Friday"],
+          "time": "2:00 PM - 3:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M021",
+            "module_name": "Renewable Energy",
+            "topics": ["Solar Power", "Wind Energy", "Hydropower"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q021",
+            "quiz_name": "Sustainability Quiz",
+            "due_date": "2023-08-25"
+          }
+        ]
+      },
+      {
+        "course_id": "C019",
+        "course_name": "Neuroscience and Behavior",
+        "instructor": "Dr. Sanchez",
+        "credit_hours": 4,
+        "schedule": {
+          "days": ["Monday", "Wednesday", "Friday"],
+          "time": "11:30 AM - 1:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M022",
+            "module_name": "Brain Anatomy",
+            "topics": ["Neurons", "Synapses", "Neurotransmitters"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q022",
+            "quiz_name": "Neuroscience Basics Quiz",
+            "due_date": "2023-09-05"
+          }
+        ]
+      },
+      {
+        "course_id": "C020",
+        "course_name": "Entrepreneurship and Innovation",
+        "instructor": "Prof. Lewis",
+        "credit_hours": 3,
+        "schedule": {
+          "days": ["Tuesday", "Thursday"],
+          "time": "3:00 PM - 4:30 PM"
+        },
+        "modules": [
+          {
+            "module_id": "M023",
+            "module_name": "Business Model Canvas",
+            "topics": ["Value Proposition", "Customer Segments", "Revenue Streams"]
+          }
+        ],
+        "quizzes": [
+          {
+            "quiz_id": "Q023",
+            "quiz_name": "Entrepreneurship Quiz",
+            "due_date": "2023-09-15"
+          }
+        ]
+      }
+  ]
+  
