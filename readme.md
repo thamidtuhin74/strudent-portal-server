@@ -6,7 +6,7 @@ The Student Portal Server is a backend application that serves as the backbone f
 
 ## Table of Contents
 
-- [API Documentation & Links](#api-documentation-link)
+- [API Documentation](#api-documentation)
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
@@ -16,7 +16,7 @@ The Student Portal Server is a backend application that serves as the backbone f
 - [Contributing](#contributing)
 - [License](#license) -->
 
-## API Documentation & Links
+## API Documentation
 
 #### I used vercel to online my ServerAPI links are given below ⬇
 - Server home : https://strudent-portal-server.vercel.app/
